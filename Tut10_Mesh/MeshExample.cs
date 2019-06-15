@@ -49,13 +49,14 @@ namespace Fusee.Tutorial.Core
                             },
 
                             // MESH COMPONENT
-                            SimpleMeshes.CreateCuboid(new float3(10, 10, 10))
+                            SimpleMeshes.CreateCylinder(5, 10, 8)
                         }
                     },
                 }
             };
         }
 
+       
         // Init is called on startup. 
         public override void Init()
         {
